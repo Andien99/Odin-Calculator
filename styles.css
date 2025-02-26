@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    padding: 16px;
+    align-items: center;
+    border-radius: 24px;
+    gap: 16px
+}
+
+.display-screen {
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+button {
+    height: 50px;
+    width: 90px;
+    border-radius: 32px;
+    margin: 3px;
+    font-size: 24px;
+    font-weight: 500;
+}
