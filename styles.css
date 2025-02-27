@@ -1,3 +1,8 @@
+body {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+}
+
 .container {
     display: flex;
     background-color: green;
@@ -10,11 +15,22 @@
     gap: 16px
 }
 
-.display-screen {
+#display {
     background-color: black;
     width: 500px;
     height: 200px;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.displayInfo {
+    color: white;
+    font-size: 32px;
+    text-align: end;
+    margin: 16px;
+    
 }
 
 .input {
